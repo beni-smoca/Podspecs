@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "8.4"
   s.osx.deployment_target = "10.10"
-  s.source       = { :git => "git@github.com:aferodeveloper/hubby.git", :tag => "aferosofthub-podspec-#{s.version}" }
+  s.source       = { :git => "https://github.com/aferodeveloper/hubby.git", :tag => "aferosofthub-podspec-#{s.version}" }
 
   s.source_files = "pkg/src/utils.cpp",
                   "pkg/src/PeripheralManager.cpp",
